@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav h1 {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+i {
+  height: 50px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(201, 176, 176, 0.35) 0px 5px 15px;
+  margin-bottom: 100px;
+}
+
+.box p {
+  margin-top: 15px;
+  color: rgb(22, 44, 51);
+  font-size: 18px;
+}
+h2{
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(231, 83, 83);
+}
+
+footer {
+  background: black;
+  color: white;
+  margin-top: 35px;
+}
+
+footer p {
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: row;
+
+  }
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>FUll STACK ROADMAP</h1>
+
+    </nav>
+    <main>
+      <div class="box">
+        <i class="fa-brands fa-html5 fa-2xl" style="color: #2f79e7;"></i>
+        <h2>HTML</h2>
+        <p>HTML (HyperText Markup Language) is the standard language for creating webpages and web
+          applications.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #eb5d25;"></i>
+        <h2>CSS</h2>
+        <p>CSS (Cascading Style Sheets) is used to style and layout web pages, for example, to alter
+          the font, color, and spacing of your content.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-js fa-2xl" style="color: #ebb514;"></i>
+        <h2>JS</h2>
+        <p>JavaScript is a scripting language used to create and control dynamic website content,
+          such as animations, interactive forms, and other user interactions.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-node fa-2xl" style="color: #21e74c;"></i>
+        <h2>NODE.JS</h2>
+        <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to
+          run JavaScript server-side.</p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-e fa-2xl" style="color: #141414;"></i>
+        <h2>EXPRESS.JS</h2>
+        <p>Express.js is a web application framework for Node.js, designed for building web
+          applications and APIs.</p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-leaf fa-2xl" style="color: #3de93d;"></i>
+        <h2>MONGO.DB</h2>
+        <p>MongoDB is a NoSQL database program that uses JSON-like documents with optional schemas,
+          known for its flexibility and scalability.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;2024 My website All right reserved</p>
+
+    </footer>
+
+  </body>
+</html>
